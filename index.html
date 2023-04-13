@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Area de login</title>
+  </head>
+  <body>
+    <main>
+      <section class="left__side"></section>
+      <section class="login">
+        <div class="center__side">
+
+          <h1 class="login__title">Member login</h1>
+
+          <label class="login__label">
+            <span>User</span>
+            <input type="text" name="username" class="input" />
+          </label>
+
+          <label class="login__label">
+            <span>password</span>
+            <input type="password" name="password" class="input" />
+          </label>
+
+          <label class="login__label--checkbox">
+            <input type="checkbox" class="input--checkbox" />
+            keep login
+          </label>
+        </div>
+
+        <div class="wrapper">
+          <button type="button" class="login__button" disabled>
+            login
+          </button>
+
+          <a href="#" class="login__link">Forget Username / Password?</a>
+          <a href="#" class="login__link">Create your Account</a>
+        </div>
+      </section>
+      <section class="right__side"></section>
+    </main>
+  </body>
+  <script src="./script.js" defer></script>
+</html>
